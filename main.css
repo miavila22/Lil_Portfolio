@@ -1,0 +1,122 @@
+
+header {
+    padding: 70px; 
+    text-align: center; 
+    background-image:linear-gradient(#fcfde3, #016e2e); 
+    color: rgb(107, 64, 35); 
+  }
+  
+  
+  header h1 {
+    font-size: 40px;
+  }
+
+  
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .side {
+    flex: 30%; 
+    background: linear-gradient(rgb(255, 224, 165), white); 
+    padding: 30px; 
+    border: solid rgb(54, 46, 29);
+  }
+  
+ 
+  .main {
+    flex: 70%; 
+    background: linear-gradient(rgb(255, 224, 165), white);
+    padding: 100px; 
+  }
+
+  .footer {
+    padding: 50px;
+    text-align: center; 
+    background: linear-gradient(white,rgb(255, 224, 165));
+    border: solid
+    
+  }
+
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(252, 4, 4, 0.8);
+  }
+  
+
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 50%;
+    text-align: center;
+    height: 50%;
+  }
+  
+  
+  .numbertext {
+    color: red;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+* {box-sizing:border-box}
+
+
+.mySlides {
+  display: none;
+}
+
+#chainsaw {
+    max-height: 800%;
+    max-width: 100%;
+}
